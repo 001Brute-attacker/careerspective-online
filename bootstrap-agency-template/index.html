@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>SOFT Team - Bootstrap Agency Template</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="Bootstrap Agency Template" name="keywords">
+        <meta content="Bootstrap Agency Template" name="description">
+
+        <!-- Favicon -->
+        <link href="img/favicon.ico" rel="icon">
+
+        <!-- Google Font -->
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+        
+        <!-- CSS Libraries -->
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="lib/slick/slick.css" rel="stylesheet">
+        <link href="libs/slick/slick-theme.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="wrapper">
+            <!-- Header Start -->
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-lg-2">
+                            <div class="brand">
+                                <a href="index.html">
+                                    <img src="img/logo.png" alt="Logo">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-10">
+                            <div class="topbar">
+                                <div class="topbar-col">
+                                    <a href="tel:+254 740 567220"><i class="fa fa-phone-alt"></i>+254 740 567220</a>
+                                </div>
+                                <div class="topbar-col">
+                                    <a href="mailto:info@example.com"><i class="fa fa-envelope"></i>info@example.com</a>
+                                </div>
+                                <div class="topbar-col">
+                                    <div class="topbar-social">
+                                        <a href=""><i class="fab fa-twitter"></i></a>
+                                        <a href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a href=""><i class="fab fa-youtube"></i></a>
+                                        <a href=""><i class="fab fa-instagram"></i></a>
+                                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="navbar navbar-expand-lg bg-light navbar-light">
+                                <a href="#" class="navbar-brand">MENU</a>
+                                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                                    <span class="navbar-toggler-icon"></span>
+                                </button>
+
+                                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                                    <div class="navbar-nav ml-auto">
+                                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                                        <a href="services.html" class="nav-item nav-link">Services</a>
+                                        <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                                        <a href="single.html" class="nav-item nav-link">Single Page</a>
+                                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                                        <a href="https://htmlcodex.com/bootstrap-agency-template" class="btn"><i class="fa fa-download"></i>Downloads</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Header End -->
+
+
+            <!-- Hero Start -->
+            <div class="hero">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            
+                           <h2> <span>CareerSpective</span></h2>
+<h4>Will help you unlock opportunities by optimizing your resume, enhancing your interview skills, and preparing you for the modern job market. Whether you’re looking to land a remote position or transition to a new role, we have the resources, expertise, and tools you need to stand out from the competition.</h4>
+
+</h4></p>
+                            <a href="services.html" class="btn">Continue</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/hero.png" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero End -->
+            
+            
+            <!-- About Start -->
+            <div class="about">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <div id="video-section">
+                                <div class="youtube-player" data-id="jssO8-5qmag"></div>
+                                
+                                <script>
+                                    document.addEventListener("DOMContentLoaded",
+                                        function() {
+                                            var div, n,
+                                                v = document.getElementsByClassName("youtube-player");
+                                            for (n = 0; n < v.length; n++) {
+                                                div = document.createElement("div");
+                                                div.setAttribute("data-id", v[n].dataset.id);
+                                                div.innerHTML = labnolThumb(v[n].dataset.id);
+                                                div.onclick = labnolIframe;
+                                                v[n].appendChild(div);
+                                            }
+                                        });
+
+                                    function labnolThumb(id) {
+                                        var thumb = '<img src="img/poster.jpg">',
+                                            play = '<div class="play"></div>';
+                                        return thumb.replace("ID", id) + play;
+                                    }
+
+                                    function labnolIframe() {
+                                        var iframe = document.createElement("iframe");
+                                        var embed = "https://www.youtube.com/embed/ID?autoplay=1";
+                                        iframe.setAttribute("src", embed.replace("ID", this.dataset.id));
+                                        iframe.setAttribute("frameborder", "0");
+                                        iframe.setAttribute("allowfullscreen", "1");
+                                        this.parentNode.replaceChild(iframe, this);
+                                    }
+                                </script>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="section-title">Learn About Us</h2>
+                            <p>At <b>Careerspective</b>, we empower individuals to achieve their career aspirations through personalized coaching and expert guidance. Our mission is to help you unlock your full potential and navigate the complexities of the job market with confidence.</p>
+
+                            <p>Why Choose Us?</p>
+                            <ul>
+                            <li><p><b>Tailored Solutions:</b> Customized coaching plans designed for your unique journey.</p>
+                            <li><p><b>Expert Team:</b> Experienced coaches from diverse industries, dedicated to your success.</li></p>
+                            <li><p><b>Proven Results:</b> Helping clients land their dream jobs and transition careers.</p>
+                            </ul>
+                            
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- About End -->
+
+
+            <!-- Service Start -->
+            <div class="service">
+                <div class="container-fluid">
+                    <div class="section-header">
+                        <h2>Our Services</h2>
+                        <p>Welcome to Careerspective, where we empower job seekers with essential tools to succeed in today's job market. Our services include ATS-friendly resume revamping, remote job masterclasses, personalized interview preparation, and comprehensive HR consulting. Each service is tailored to help you stand out, whether it's crafting a resume that beats applicant tracking systems, excelling in virtual job applications, or advancing in your career with professional guidance. Partner with us to navigate your career journey with confidence and success</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3 style="color: maroon;">ATS-Friendly Resume/CV Revamping and Writing</h3>
+                                <img src="img/icon-service-1.png" alt="Service">
+
+<p><b>Title:</b> Get Your Resume Ready for Success with ATS-Friendly Optimization</p>
+
+                               
+<p><b>Description:</b> In today’s competitive job market, a well-structured, ATS-friendly resume is essential. Our team specializes in creating resumes that get past automated screening systems, ensuring your qualifications are highlighted and making a strong impression on hiring managers.</p>
+
+<p><span style="color: green;"><b>What We Offer:</b></span></p>
+
+<p><b>ATS Optimization:</b> We format and optimize your resume to ensure it passes through applicant tracking systems effectively.</p>
+<p><b>Customized Content:</b> Our experts highlight your unique skills and experiences in a way that aligns with industry standards and job descriptions.</p>
+<p><b>Professional Formatting:</b> We use sleek, professional designs that are both ATS-compatible and visually appealing for hiring managers.</p>
+<p><i>Take the first step to standing out—optimize your resume for success.</i></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3 style="color: maroon;">Masterclasses for Remote Jobs</h3>
+                                <img src="img/icon-service-2.png" alt="Service">
+                                <p><b>Title:</b> Master the Art of Remote Work and Land Your Dream Job </p>
+<p><b>Description:</b> With remote work on the rise, building the skills necessary for virtual roles is essential. Our masterclasses are designed for aspiring remote professionals, providing you with the tools to excel in remote work environments, secure remote positions, and thrive on virtual teams.</p>
+
+<p><span style="color:green;"><b>Course Highlights:</b></span></p>
+
+<p><b>Remote Job Search Strategies:</b> Learn effective ways to find and apply for remote jobs that match your skills and career goals.</p>
+<p><b>Virtual Communication Skills:</b> Master the best practices for communicating and collaborating with remote teams.</p>
+<p><b>Productivity & Time Management:</b> Understand the nuances of staying organized, motivated, and productive while working from home.</p>
+<p><i>Prepare for the future of work—enroll in our remote job masterclasses today!</i></p>
+
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3 style="color: maroon;">Interview Preparation</h3>
+                                <img src="img/icon-service-3.png" alt="Service">
+                                <p><b>Title:</b> Ace Every Interview with Confidence and Clarity</p>
+<p><b>Description:</b> Our interview preparation services are designed to make you shine in every interview, whether it’s in-person or virtual. We’ll help you develop the skills, techniques, and strategies you need to answer questions effectively, showcase your strengths, and make a lasting impression.</p>
+
+<p><span style="color:green;"><b>Our Services:</b></p>
+
+<p><b>Mock Interviews:</b> Practice answering common and challenging questions with feedback to refine your approach.</p>
+<p><b>Behavioral Question Techniques:</b> Learn how to use the STAR method to structure your responses and highlight your experiences.</p>
+<p><b>Customized Coaching:</b> We provide tips and insights based on the specific job you’re interviewing for, tailoring your preparation to the role.</p>
+<p><i>Turn nerves into confidence—prepare for interviews like a pro!</i></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3 style="color: maroon;">HR Consulting and Career Development</h3>
+                                <img src="img/icon-service-4.png" alt="Service">
+                                <p><b>Title:</b> Build a Career That Aligns with Your Goals</p>
+<p><b>Description:</b> Beyond resumes and interviews, we provide comprehensive career consulting services to support your growth. Whether you’re transitioning careers, seeking a promotion, or just need guidance on workplace challenges, our HR experts are here to help.</p>
+
+<p><span style="color:green;"><b>Services We Offer:</b></p>
+
+<p><b>Career Pathing and Goal Setting:</b> Define your career vision and set actionable goals to achieve it.</p>
+<p><b>Conflict Resolution and Workplace Advice:</b> Get expert advice on managing workplace relationships and challenges.</p>
+<p><b>Professional Development Plans:</b> Identify skills gaps and create a roadmap for skill-building and career advancement.</p>
+<p><i>Invest in yourself—partner with us to grow your career.</i></p>
+
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3 style="color: maroon;">Job Search Strategy and Planning</h3>
+                                <img src="img/icon-service-5.png" alt="Service">
+                                <p><b>Title:</b> Create a Targeted Job Search Strategy to Land the Right Role</p>
+<p><b>Description:</b> Applying to countless jobs can be exhausting and ineffective. Our job search strategy service provides a structured approach, ensuring that you focus on high-impact applications that are well-aligned with your career ambitions.</p>
+
+<p><span style="color:green;"><b>What We Offer:</b>
+
+<p><b>Personalized Job Search Plan:</b> A tailored job search strategy that targets roles best suited for your skills and goals.</p>
+<p><b>Application Tracking and Follow-Up Guidance:</b> Learn how to keep track of applications and follow up effectively.</p>
+<p><b>Access to Exclusive Job Boards:</b> Find exclusive job postings in your field with access to curated job boards.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3 style="color: maroon;">Salary Negotiation Coaching</h3>
+                                <img src="img/icon-service-6.png" alt="Service">
+                                <p><b>Title:</b> Maximize Your Earning Potential with Salary Negotiation Coaching</p>
+<p><b>Description:</b> Knowing how to negotiate your salary can make a significant impact on your career earnings. Our coaching sessions will guide you through market research, negotiation techniques, and confidence-building strategies to help you secure the compensation you deserve.</p>
+
+<p><span style="color:green;"><b>What We Offer:</b></p>
+
+<p><b>Market Research and Benchmarking:</b> Understand industry standards and the market value of your skills.</p>
+<p><b>Negotiation Tactics and Phrasing:</b> Learn effective negotiation strategies and phrasing to convey your worth.</p>
+<p><b>Confidence and Mindset Training:</b> Build the self-assurance needed to negotiate assertively and effectively.</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3 style="color: maroon;">Networking Strategy and Outreach Planning</h3>
+                                <img src="img/icon-service-7.png" alt="Service">
+                                <p><b>Title:</b> Build a Powerful Professional Network with Strategic Outreach</p>
+<p><b>Description:</b> Networking is a vital part of career growth. Our networking strategy service helps you identify key contacts, craft personalized outreach messages, and develop a networking plan that aligns with your career goals.</p>
+
+<p><span style="color:green;"><b> What We Offer:</b>
+
+<p><b>Targeted Networking Plans:</b> Identify relevant connections in your industry and create an effective networking roadmap.</p>
+<p><b>Personalized Outreach Coaching:</b> Guidance on crafting genuine, impactful outreach messages.</p>
+<p><b>Event and Conference Strategy:</b> Tips for maximizing networking opportunities at industry events and conferences.</p>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="service-item">
+                                <h3 style="color: maroon;">Executive Coaching for High-Level Professionals</h3>
+                                <img src="img/icon-service-8.png" alt="Service">
+                                <p><b>Title:</b> Empower Your Leadership Potential with Executive Coaching</p>
+<p><b>Description:</b> Our executive coaching service is designed for professionals in leadership roles or those aspiring to senior positions. With a focus on enhancing leadership capabilities, strategic thinking, and interpersonal skills, executive coaching can help you drive greater impact within your organization.</p>
+
+<p><span style="color:green;"><b>What We Offer:</b>
+
+<p><b>Leadership Skills Development:</b> Enhance your leadership skills for managing teams and making strategic decisions.</p>
+<p><b>Executive Presence Coaching:</b> Build confidence and poise to command respect and influence in high-stakes situations.
+<p><b>Strategic Planning and Goal Alignment:</b> Learn to set and align goals with organizational objectives for better performance.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Service End -->
+
+
+            <!-- FAQs Start -->
+            <div class="faqs">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <h2 class="section-title">Frequently Asked Questions</h2>
+                            <div id="accordion">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="true">
+                                            <b>General Career Development<b>
+                                        </a>
+                                    </div>
+                                    <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                        <div class="card-body">
+                                           <ul> <li><p style="color:blue;">How can I figure out what career path is right for me?</p></li>
+<li><p style="color:blue;">What steps should I take if I’m considering a career change?</p></li>
+<li><p style="color:blue;">How do I set achievable career goals?</p></li>
+<li><p style="color:blue;">How do I identify and leverage my strengths in my career?.</p></li></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                                            <b>Job Search and Application Process</b>
+                                        </a>
+                                    </div>
+                                    <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                           <ul> <li><p style="color:blue;">How can I make my resume stand out to employers?</li></p>
+                                            <li><p style="color:blue;">What should I include on my LinkedIn profile to attract recruiters?</li></p>
+                                            <li><p style="color:blue;">What’s the best way to start looking for a new job?</li></p>
+                                            <li><p style="color:blue;">How can I get past ATS systems and improve my chances of getting noticed?</li></p></ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseThree">
+                                            <b>Interview Preparation</b>
+                                        </a>
+                                    </div>
+                                    <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                                <li><p style="color:blue;">How do I prepare for a behavioral interview?</li></p>
+                                                    <li><p style="color:blue;">What’s the best way to answer common interview questions?</li></p>
+                                                    <li><p style="color:blue;">How do I handle salary-related questions in an interview?</li></p>
+                                                   <li><p style="color:blue;">How do I make a lasting impression on interviewers?</li></p>
+                                            </ul>
+                                        
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <a class="card-link" data-toggle="collapse" href="#collapseFour">
+                                            <b>Remote Work and Digital Skills</b>
+                                        </a>
+                                    </div>
+                                    <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                        <div class="card-body">
+                                            <ul>
+                                            <li><p style="color:blue;">How do I handle salary-related questions in an interview?</li></p>
+                                            <li><p style="color:blue;">What skills are important for remote work?</li></p>
+                                             <li><p style="color:blue;">How do I stay productive and organized while working from home?</li></p>
+                                            <li><p style="color:blue;">How can I improve my virtual communication skills?</li></p></ul>
+                                            
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                            <a class="btn" href="">Ask more</a>
+                        </div>
+                        <div class="col-md-6">
+                            <img src="img/faqs.jpg" alt="Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FAQs End -->
+
+
+            <!-- Testimonial Start -->
+            <div class="testimonial">
+                <div class="container">
+                    <div class="section-header">
+                        <h2>Clients Review</h2>
+                        <p>At CareerSpective, we pride ourselves on making a meaningful impact in our clients' careers. Here are a few testimonials from individuals who have transformed their job search experience with our coaching services:</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="testimonial-slider-nav">
+                                <div class="slider-nav"><img src="img/testimonial-1.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-2.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-4.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-1.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-2.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-3.jpg" alt="Testimonial"></div>
+                                <div class="slider-nav"><img src="img/testimonial-4.jpg" alt="Testimonial"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="testimonial-slider">
+                                <div class="slider-item">
+                                    <h3>Mark Danson</h3>
+                                    <h4>Tutor</h4>
+                                    <p>"Working with CarrerSpective was a game-changer for me. Their insights helped me identify my strengths and land a job that truly aligns with my passion. I couldn't be happier!"</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Mark T</h3>
+                                    <h4>Accountant</h4>
+                                    <p>"The coaching sessions provided me with the tools and confidence I needed to excel in interviews. I received a job offer just weeks after our first meeting!"</p>
+                                </div>
+                                <div class="slider-item">
+                                    <h3>Anna Valerya</h3>
+                                    <h4>Nurse</h4>
+                                    <p>"The team at CareerSpective was incredibly supportive throughout my job search. They provided valuable feedback on my resume and interview skills!"</p>
+                                </div>
+                                
+                                <div class="slider-item">
+                                    <h3>Emily R</h3>
+                                    <h4>Chef</h4>
+                                    <p>"I was feeling lost in my career path, but Coach Charity from CarrerSpective helped me clarify my goals and develop a strategy. I'm now in a role I love!"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Testimonial End -->
+
+
+            <!-- News Start -->
+            <div class="news">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-md-6">
+                            <img src="img/news.jpg" alt="Image">
+                        </div>
+                        <div class="col-md-6">
+                            <h2 class="section-title">Read Latest News</h2>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit non vulputate. Aliquam metus tortor, auctor id gravida condimentum, viverra quis sem. Curabitur non nisl nec nisi scelerisque maximus. Aenean consectetur convallis porttitor. Aliquam interdum at lacus non blandit.
+                            </p>
+                            <a class="btn" href="">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- News End -->
+
+
+            <!-- Call to Action Start -->
+            <div class="call-to-action">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-9">
+                            <h2>Take the first step towards your dream career—contact us today!</h2>
+                            <p>
+                                Our team is here to guide you with personalized coaching and actionable insights tailored to your goals.
+                            </p>
+                        </div>
+                        <div class="col-md-3">
+                            <a class="btn" href="contact.html">Contact Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Call to Action End -->
+
+
+            <!-- Footer Start -->
+            <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <div class="footer-about">
+                                <h2>About Us</h2>
+                                <p>
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam sit amet metus sit amet diam varius commodo. Aliquam at nisl interdum
+                                </p>
+                                <br>
+                                <p><i class="fa fa-map-marker-alt"></i>Kenya,Nairobi</p>
+                                <p><i class="fa fa-phone-alt"></i>+254 740 567220</p>
+                                <p><i class="fa fa-envelope"></i>info@example.com</p>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="footer-link">
+                                        <h2>Useful Link</h2>
+                                        <a href="">About Us</a>
+                                        <a href="">Our Story</a>
+                                        <a href="">Our Services</a>
+                                        <a href="">Our Portfolio</a>
+                                        <a href="">Our Projects</a>
+                                        <a href="">Contact Us</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="footer-link">
+                                        <h2>Useful Link</h2>
+                                        <a href="">Our Clients</a>
+                                        <a href="">Clients Review</a>
+                                        <a href="">Ongoing Customer</a>
+                                        <a href="">Customer Support</a>
+                                        <a href="">FAQs</a>
+                                        <a href="">Site Map</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container copyright">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <p>&copy; <a href="https://htmlcodex.com">Nexus Technologies</a>, All Right Reserved.</p>
+                        </div>
+                        <div class="col-md-6">
+                            <p>Template By <a href="https://htmlcodex.com">Nexus Technologies</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Footer End -->
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/slick/slick.min.js"></script>
+        <script src="lib/isotope/isotope.pkgd.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+</html>
